@@ -1,0 +1,170 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.6846,
+    "confidence_accuracy": 0.739,
+    "precision": 0.7273,
+    "recall": 0.6795,
+    "specificity": 0.6907,
+    "f1_score": 0.7026,
+    "roc_auc": 0.7545,
+    "confusion_matrix": [
+      [
+        2184,
+        978
+      ],
+      [
+        1230,
+        2608
+      ]
+    ],
+    "n_total": 7000,
+    "n_conf": 5154,
+    "n_risk": 1846,
+    "pct_risk": 26.37,
+    "train_time": 0.09
+  },
+  "Decision Tree": {
+    "accuracy": 0.7006,
+    "confidence_accuracy": 0.7359,
+    "precision": 0.743,
+    "recall": 0.6939,
+    "specificity": 0.7087,
+    "f1_score": 0.7176,
+    "roc_auc": 0.7727,
+    "confusion_matrix": [
+      [
+        2241,
+        921
+      ],
+      [
+        1175,
+        2663
+      ]
+    ],
+    "n_total": 7000,
+    "n_conf": 5760,
+    "n_risk": 1240,
+    "pct_risk": 17.71,
+    "train_time": 0.43
+  },
+  "Random Forest": {
+    "accuracy": 0.7161,
+    "confidence_accuracy": 0.7714,
+    "precision": 0.7632,
+    "recall": 0.6993,
+    "specificity": 0.7366,
+    "f1_score": 0.7298,
+    "roc_auc": 0.7955,
+    "confusion_matrix": [
+      [
+        2329,
+        833
+      ],
+      [
+        1154,
+        2684
+      ]
+    ],
+    "n_total": 7000,
+    "n_conf": 5399,
+    "n_risk": 1601,
+    "pct_risk": 22.87,
+    "train_time": 1.01
+  },
+  "Naive Bayes": {
+    "accuracy": 0.6784,
+    "confidence_accuracy": 0.7019,
+    "precision": 0.7351,
+    "recall": 0.6464,
+    "specificity": 0.7173,
+    "f1_score": 0.6879,
+    "roc_auc": 0.7201,
+    "confusion_matrix": [
+      [
+        2268,
+        894
+      ],
+      [
+        1357,
+        2481
+      ]
+    ],
+    "n_total": 7000,
+    "n_conf": 6129,
+    "n_risk": 871,
+    "pct_risk": 12.44,
+    "train_time": 0.02
+  },
+  "K-NN": {
+    "accuracy": 0.6895,
+    "confidence_accuracy": 0.7369,
+    "precision": 0.7318,
+    "recall": 0.6969,
+    "specificity": 0.6802,
+    "f1_score": 0.714,
+    "roc_auc": 0.7602,
+    "confusion_matrix": [
+      [
+        604,
+        284
+      ],
+      [
+        337,
+        775
+      ]
+    ],
+    "n_total": 2000,
+    "n_conf": 1486,
+    "n_risk": 514,
+    "pct_risk": 25.7,
+    "train_time": 0.0
+  },
+  "XGBoost": {
+    "accuracy": 0.7097,
+    "confidence_accuracy": 0.7567,
+    "precision": 0.7524,
+    "recall": 0.7014,
+    "specificity": 0.7198,
+    "f1_score": 0.726,
+    "roc_auc": 0.7889,
+    "confusion_matrix": [
+      [
+        2276,
+        886
+      ],
+      [
+        1146,
+        2692
+      ]
+    ],
+    "n_total": 7000,
+    "n_conf": 5492,
+    "n_risk": 1508,
+    "pct_risk": 21.54,
+    "train_time": 2.48
+  },
+  "Cascade Classifier": {
+    "accuracy": 0.7061,
+    "confidence_accuracy": 0.7641,
+    "precision": 0.725,
+    "recall": 0.7475,
+    "specificity": 0.6559,
+    "f1_score": 0.7361,
+    "roc_auc": 0.7943,
+    "confusion_matrix": [
+      [
+        2074,
+        1088
+      ],
+      [
+        969,
+        2869
+      ]
+    ],
+    "n_total": 7000,
+    "n_conf": 5465,
+    "n_risk": 1535,
+    "pct_risk": 21.93,
+    "train_time": 2.08
+  }
+}

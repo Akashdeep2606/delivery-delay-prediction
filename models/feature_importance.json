@@ -1,0 +1,17 @@
+{
+  "Days for shipment (scheduled)": 0.2684,
+  "sched_x_priority": 0.1644,
+  "Order City": 0.154,
+  "Shipping Mode_Second Class": 0.0655,
+  "Order State": 0.0439,
+  "Customer City": 0.04,
+  "traffic_transferred": 0.0285,
+  "agent_rating_confidence": 0.0239,
+  "avg_transfer_confidence": 0.0209,
+  "traffic_confidence": 0.0201,
+  "Customer Id": 0.0201,
+  "Latitude": 0.0189,
+  "Order Id": 0.0187,
+  "weather_confidence": 0.0185,
+  "dist_center": 0.0181
+}

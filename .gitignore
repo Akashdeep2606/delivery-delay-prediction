@@ -1,0 +1,65 @@
+# ==============================================================================
+# Git Ignore - Supply Chain Delivery Delay Prediction Project
+# ==============================================================================
+
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+secrets.toml
+.streamlit/secrets.toml
+
+# IDE & Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Large raw datasets (keep data directory and instructions, ignore bulky CSVs)
+data/*.csv
+data/*.zip
+data/*.tar.gz
+data/*.parquet
+!data/README.md
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Allow pre-trained models and metadata for immediate web app deployment
+!models/all_models.joblib
+!models/pipeline_metadata.joblib
+!models/eval_results.json
+!models/feature_importance.json
+!models/roc_curves.json
+!models/test_sample.csv
