@@ -191,34 +191,7 @@ Open `http://localhost:8501` in your browser.
 3. **🔍 Feature Importance & Leakage Prevention:**
    - Horizontal bar chart ranking the top features driving shipment delays.
    - Clear audit of why `Days for shipping (real)` and `Delivery Status` constitute data leakage.
-4. **🎓 Academic Syllabus & Viva Voce Guide:**
-   - Mapping to the **UML501: Machine Learning** syllabus.
-   - Curated model answers for common external examiner viva questions.
-   - LaTeX-rendered formula cheat-sheet (Gini Impurity, Entropy, Sigmoid, Bayes Theorem, F1-Score).
 
----
-
-## 📚 Syllabus Alignment (Course UML501: Machine Learning)
-
-| Unit / Module | Syllabus Topic | Project Implementation |
-|---|---|---|
-| **Unit 2: Data Pre-processing** | Data Cleaning, Scaling, Splitting, Reduction | Leakage removal, MinMax normalization, 80/20 train-test split, Mutual Information top-30 feature selection. |
-| **Unit 4: Classification** | Logistic Regression | Evaluated as a baseline linear probabilistic classifier ($68.46\%$ Acc). |
-| **Unit 4: Classification** | Decision Tree (Gini & Entropy) | CART Decision Tree with depth pruning; Gini vs. Information Gain comparison ($70.06\%$ Acc). |
-| **Unit 4: Classification** | Random Forest Classification | 100-tree bagging ensemble with random feature subspace (**Top Performer: $71.61\%$ Std / $77.14\%$ Conf Acc**). |
-| **Unit 4: Classification** | Naive Bayes Algorithm | Gaussian Naive Bayes modeling conditional feature likelihood ($67.84\%$ Acc). |
-| **Unit 4: Classification** | K-Nearest Neighbours (K-NN) | Distance-based instance classifier using $k=9$ neighbors ($68.95\%$ Acc). |
-| **Unit 4: Performance Evaluation** | Metrics & Confusion Matrix | Sensitivity (Recall), Specificity, Precision, F1-Score, ROC-AUC, and Confusion Matrix breakdown. |
-
----
-
-## 👨‍💻 Author
-
-- **Akashdeep Singh**
-- B.Tech Computer Science & Engineering / Data Science (5th Semester)
-- GitHub: [@Akashdeep2606](https://github.com/Akashdeep2606)
-
----
 
 ## 📄 License
 
