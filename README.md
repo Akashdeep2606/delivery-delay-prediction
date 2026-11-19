@@ -147,13 +147,9 @@ delivery-delay-prediction/
 
 ## 🚀 Quickstart & Installation
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Akashdeep2606/delivery-delay-prediction.git
-cd delivery-delay-prediction
-```
 
-### 2. Set Up Virtual Environment
+
+### 1. Set Up Virtual Environment
 ```bash
 # Windows
 python -m venv venv
@@ -212,13 +208,7 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
-## 👨‍💻 Author
 
-- **Akashdeep Singh**
-- B.Tech Computer Science & Engineering / Data Science (5th Semester)
-- GitHub: [@Akashdeep2606](https://github.com/Akashdeep2606)
-
----
 
 ## 📄 License
 
